@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  background-image: URL(https://dl.dropboxusercontent.com/u/76015572/Web%20Pics/1202369-norway-backgrounds-for-pc-5472x3648.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+}
+
+.container {
+  max-width:940px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+  background-color: rgba(0,0,0,.5);
+  height: 60px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  
+}
+
+.logo {
+    margin: 0 30px 0;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.nav li {
+  color: #fff;
+  display: inline;
+  font-size: 14px;
+  margin-right: 30px;
+  padding: 0 0 5px;
+}
+
+.nav li:hover {
+  border-bottom:1px solid #00ffbc; 
+  color: #00ffbc; 
+  cursor:pointer;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background: transparent;
+  text-align: center;
+}
+
+.jumbotron .container: {
+  max-width: 100%;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  color: #fff; 
+  font-size: 60px;
+}
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background: transparent;
+}
+
+.supporting .col-md-4 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+/* download */
+
+.download {
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+.btn-default {
+    background: rgba(0,255,188,0.5);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 10px 60px;
+    margin-bottom: 100px;
+}
+
+.btn-default:hover {
+    background: rgba(0,0,0,0.5);
+    border: none;
+    color: #fff;
+}
+
+
